@@ -4,19 +4,30 @@
   --text-color: #757575;
   --fons-color: #ffffff;
 }
-.body {
+body {
   background-color: var(--fons-color);
   color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* sait nav */
 .accent {
   color: var(--accent-color);
+}
+.sait-nav > a {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.11;
 }
 .list {
   list-style: none;
 }
 .sait-nav .item {
   color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .sait-nav .link:hover {
   color: var(--accent-color);
@@ -27,6 +38,9 @@
 /* Header */
 .header a {
   color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .header a:hover {
   color: var(--accent-color);
@@ -37,6 +51,11 @@
 /* Hero */
 .hero {
   background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-title {
   color: var(--fons-color);
@@ -45,27 +64,60 @@
 .button {
   color: var(--fons-color);
   background: var(--accent-color);
+  letter-spacing: 0.06em;
+  font-family: inherit;
 }
 /* Section */
 .section-title {
   color: var(--primery-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 /* Features */
 .features-title {
   color: var(--primery-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .features-text {
   color: var(--text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .naim {
   color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 .work {
   color: var(--text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 /* Footer */
 .footer {
   background-color: #2f303a;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.11;
+}
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .address-text {
   color: var(--fons-color);
