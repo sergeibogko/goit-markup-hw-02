@@ -1,1 +1,39 @@
-/* hero */
+.body {
+  background-color: #ffffff;
+  color: #212121;
+}
+/* sait nav */
+.sait-nav .accent {
+  color: #2196f3;
+}
+.sait-nav .list {
+  list-style: none;
+}
+.sait-nav .item {
+  color: #212121;
+}
+.sait-nav .link:hover {
+  color: #2196f3;
+}
+.sait-nav .link:focus {
+  color: #2196f3;
+}
+/* Header */
+.header a {
+  color: #212121;
+}
+.header a:hover {
+  color: #2196f3;
+}
+.header a:focus {
+  color: #2196f3;
+}
+/* Button */
+.button {
+  color: #ffffff;
+  background: #2196f3;
+}
+/* Section */
+.section-title {
+  color: #212121;
+}
