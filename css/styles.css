@@ -1,39 +1,72 @@
+:root {
+  --primery-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --fons-color: #ffffff;
+}
 .body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--fons-color);
+  color: var(--primery-text-color);
 }
 /* sait nav */
-.sait-nav .accent {
-  color: #2196f3;
+.accent {
+  color: var(--accent-color);
 }
-.sait-nav .list {
+.list {
   list-style: none;
 }
 .sait-nav .item {
-  color: #212121;
+  color: var(--primery-text-color);
 }
 .sait-nav .link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .sait-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* Header */
 .header a {
-  color: #212121;
+  color: var(--primery-text-color);
 }
 .header a:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--fons-color);
 }
 /* Button */
 .button {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--fons-color);
+  background: var(--accent-color);
 }
 /* Section */
 .section-title {
-  color: #212121;
+  color: var(--primery-text-color);
+}
+/* Features */
+.features-title {
+  color: var(--primery-text-color);
+}
+.features-text {
+  color: var(--text-color);
+}
+.naim {
+  color: var(--primery-text-color);
+}
+.work {
+  color: var(--text-color);
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.address-text {
+  color: var(--fons-color);
 }
