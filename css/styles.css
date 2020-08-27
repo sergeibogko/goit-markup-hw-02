@@ -3,6 +3,7 @@
   --accent-color: #2196f3;
   --text-color: #757575;
   --fons-color: #ffffff;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: var(--fons-color);
@@ -14,7 +15,19 @@ body {
 .accent {
   color: var(--accent-color);
 }
-.sait-nav > a {
+
+.sait-nav .logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.sait-nav .link {
+  text-decoration: none;
+}
+.sait-nav > .a {
+  color: var(--primery-text-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -29,6 +42,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
+
+.sait-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .sait-nav .link:hover {
   color: var(--accent-color);
 }
@@ -37,10 +58,12 @@ body {
 }
 /* Header */
 .header a {
-  color: var(--primery-text-color);
+  color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .header a:hover {
   color: var(--accent-color);
@@ -51,19 +74,23 @@ body {
 /* Hero */
 .hero {
   background-color: #2f303a;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
 }
 .hero-title {
   color: var(--fons-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
 }
 /* Button */
 .button {
   color: var(--fons-color);
   background: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
   letter-spacing: 0.06em;
   font-family: inherit;
 }
@@ -109,10 +136,11 @@ body {
   background-color: #2f303a;
 }
 .logo {
+  color: var(--fons-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.11;
+  line-height: 1.1;
 }
 .address {
   font-weight: normal;
@@ -121,4 +149,10 @@ body {
 }
 .address-text {
   color: var(--fons-color);
+}
+.footer-link {
+  color: var(--footer-link-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
