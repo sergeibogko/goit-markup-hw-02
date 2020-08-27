@@ -94,6 +94,7 @@ body {
   letter-spacing: 0.06em;
   font-family: inherit;
 }
+
 /* Section */
 .section-title {
   color: var(--primery-text-color);
@@ -155,5 +156,35 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* Button-portfolio */
+.button-navigeychin {
+  color: var(--primery-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-navigeychin:hover {
+  background: #2196f3;
+}
+.portfolio-title {
+  color: var(--primery-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
